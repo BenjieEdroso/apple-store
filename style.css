@@ -15,6 +15,7 @@ body {
   text-rendering: optimizeLegibility;
   color: #000;
   background: #f5f5f7;
+  overflow-x: hidden;
 }
 
 ul {
@@ -106,9 +107,11 @@ a {
 /*category slider*/
 .slider {
   width: 100%;
-  border: 1px solid red;
   height: 198px;
   position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 223px;
 }
 
 .right-btn,
@@ -120,6 +123,7 @@ a {
   background: none;
   outline: none;
   border: none;
+  z-index: 9999;
   width: 41.59px;
   height: 41.59px;
   cursor: pointer;
@@ -147,4 +151,37 @@ a {
 
 .right-btn {
   right: 20px;
+}
+
+.categories {
+  width: 150%;
+  height: 148px;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.category {
+  width: 136px;
+  height: 148px;
+  padding: 18px 8px 16px;
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.category-img {
+  width: 100%;
+
+  padding-bottom: 16px;
+}
+
+.category a {
+  font-size: 14px;
+  color: #000;
+  display: block;
+  text-align: center;
+}
+
+.category a:hover {
+  text-decoration: underline;
 }
