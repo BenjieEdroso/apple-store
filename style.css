@@ -133,6 +133,11 @@ a {
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+.category-left-btn {
+  opacity: 1;
+}
+
 .left-btn,
 .right-btn {
   position: absolute;
@@ -146,8 +151,7 @@ a {
   left: 20px;
 }
 
-.left-btn:hover,
-.right-btn:hover {
+.show-btn {
   opacity: 1;
   transform: scale(1.3);
 }
