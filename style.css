@@ -201,6 +201,7 @@ a {
 /*latest*/
 .latest {
   position: relative;
+  padding-bottom: 54px;
 }
 
 .latest-slider {
@@ -270,4 +271,61 @@ a {
 .latest-card:hover {
   transform: scale(1.01);
   transition: all ease-in-out 400ms;
+}
+
+/*help section*/
+.help {
+  padding-left: 223px;
+}
+
+.help h2 {
+  padding-bottom: 14px;
+}
+
+.card-box {
+  display: grid;
+  grid-template-columns: 480px 480px;
+  height: 500px;
+  width: fit-content;
+  gap: 20px;
+}
+
+.big-card {
+  grid-row: 1/3;
+  border-radius: 15px;
+  background: url(./assets/img/store-card-50-specialist-202108.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.big-card .content {
+  font-size: 28px;
+  font-family: "SFProDisplay";
+  padding: 30px;
+}
+
+.top-card {
+  grid-row: 1/2;
+  border-radius: 15px;
+  background: url(./assets/img/store-card-25-apps-202108.jpg), #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 240px;
+}
+
+.top-card .content {
+  font-size: 24px;
+  padding: 55px 30px 30px 30px;
+  font-family: "SFProDisplay";
+}
+
+.top-card .content .text {
+  width: 336px;
+}
+
+.bottom-card {
+  grid-row: 2/3;
+  border-radius: 15px;
 }
