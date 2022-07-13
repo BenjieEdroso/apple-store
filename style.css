@@ -276,6 +276,7 @@ a {
 /*help section*/
 .help {
   padding-left: 223px;
+  padding-bottom: 54px;
 }
 
 .help h2 {
@@ -343,4 +344,25 @@ a {
 
 .bottom-card .content .text {
   padding-top: 25px;
+}
+
+/*shops*/
+.shops-container {
+  padding-left: 230px;
+  width: 155.2%;
+}
+.shop-header {
+  font-size: 24px;
+  width: fit-content;
+  padding-bottom: 31px;
+}
+.shops-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.shops-card {
+  width: 313px;
+  height: 240px;
+  background-color: #fff;
+  border-radius: 15px;
 }
