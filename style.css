@@ -481,3 +481,44 @@ a {
   display: block;
   margin: 0 auto 0 auto;
 }
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 140px;
+}
+
+.swatch {
+  display: block;
+  width: 100%;
+  height: 12px;
+  padding: 19px 0px 14px;
+  position: absolute;
+}
+
+.swatch ul {
+  display: block;
+  width: 100%;
+}
+.content .label {
+  color: #bf4800;
+  font-size: 12px;
+  margin-top: 41px;
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+
+.content .product {
+  color: #1d1d1f;
+  font-size: 17px;
+  font-weight: 600;
+  padding-top: 62px;
+}
+
+.content .price {
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: auto;
+}
