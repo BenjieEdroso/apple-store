@@ -517,21 +517,24 @@ a {
   padding-top: 20px;
   flex-direction: column;
   height: 149px;
+  box-sizing: content-box;
 }
 
 .swatch {
   display: block;
   width: 100%;
-
   padding: 19px 0px 14px;
   position: absolute;
+}
+
+.swatch img {
+  height: 12px;
 }
 
 .swatch ul {
   display: flex;
   gap: 7px;
   width: fit-content;
-  height: 12px;
 }
 
 .swatch ul li span {
@@ -553,11 +556,17 @@ a {
   font-size: 17px;
   font-weight: 600;
   padding-top: 62px;
+  letter-spacing: -0.022em;
+}
+
+.content .product span {
+  display: block;
 }
 
 .content .price {
   font-size: 14px;
   font-weight: 100;
+  line-height: 1.28577;
   margin-top: auto;
 }
 
