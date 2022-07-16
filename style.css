@@ -107,7 +107,7 @@ a {
 
 /*category slider*/
 .slider {
-  width: 100%;
+  width: 150%;
   height: 198px;
   position: relative;
   display: flex;
@@ -423,12 +423,23 @@ a {
 }
 
 /*cards v2*/
+
 .shop-cards-v2 {
   padding-left: 230px;
 }
 
 .shop-cards-v2 .slider {
   height: 500px;
+}
+
+.shop-cards-v2 .title {
+  padding-bottom: 14px;
+}
+
+.slider-v2 {
+  padding: 10px 0px 40px 0px;
+  display: flex;
+  gap: 20px;
 }
 
 .card {
@@ -444,6 +455,7 @@ a {
 
 .card div {
   padding: 30px;
+  width: 400px;
 }
 
 .card h3 {
@@ -498,8 +510,16 @@ a {
 }
 
 .swatch ul {
+  display: flex;
+  gap: 7px;
+  width: fit-content;
+  height: 12px;
+}
+
+.swatch ul li span {
+  font-size: 12px;
   display: block;
-  width: 100%;
+  font-weight: 300;
 }
 .content .label {
   color: #bf4800;
@@ -521,4 +541,11 @@ a {
   font-size: 14px;
   font-weight: 100;
   margin-top: auto;
+}
+
+.custom-text {
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
 }
