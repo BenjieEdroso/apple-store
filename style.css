@@ -601,7 +601,8 @@ a {
   border-radius: 15px;
 }
 
-.more__card--subtitle {
+.more__card--subtitle,
+.group__card--subtitle {
   font-size: 12px;
   color: #6e6e73;
   line-height: 1.33337;
@@ -611,14 +612,16 @@ a {
 .more__content {
   padding: 30px;
 }
-.more__card--title {
+.more__card--title,
+.group__card--title {
   color: #1d1d1f;
   font-family: "SFProDisplay";
   font-size: 28px;
   display: inline-block;
   width: 340px;
 }
-.more__card {
+.more__card,
+.group__card {
   background: #fff;
   background-position: center;
   background-size: contain;
@@ -637,4 +640,50 @@ a {
 
 .more__card--3 {
   background: url(./assets/img/homekit.jpg), #fff;
+}
+/*GROUP SLIDER*/
+
+.group__container {
+  padding-left: 231px;
+}
+.group__card {
+  width: 400px;
+  height: 500px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 8%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+.group__slider {
+  display: flex;
+  gap: 20px;
+  padding: 24px 0px 40px 0px;
+}
+
+.group__card--darkmode {
+  color: #fff;
+}
+
+.group__card--4 .group__card--title {
+  text-align: left;
+}
+
+.group__card--0 {
+  background: url(./assets/img/store-card-40-edu-202108.jpg);
+}
+.group__card--1 {
+  background: url(./assets/img/store-card-40-small-business-202108.jpg);
+}
+.group__card--2 {
+  background: url(./assets/img/store-card-40-gov-202108.jpg);
+}
+.group__card--3 {
+  background: url(./assets/img/store-card-40-veterans-202203.jpg);
+}
+.group__card--4 {
+  background: url(./assets/img/store-card-40-refurb-202108.jpg);
 }
