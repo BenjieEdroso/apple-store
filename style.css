@@ -588,6 +588,9 @@ a {
 }
 
 .more__slider {
+  width: 167%;
+  display: flex;
+  gap: 20px;
   padding: 24px 0px 40px 0px;
 }
 .more__card {
@@ -615,10 +618,23 @@ a {
   display: inline-block;
   width: 340px;
 }
-
-.more__card--0 {
-  background: url(./assets/img/store-card-50-todayatapple-202108.jpg), #fff;
+.more__card {
+  background: #fff;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+.more__card--0 {
+  background: url(./assets/img/store-card-50-todayatapple-202108.jpg), #fff;
+}
+
+.more__card--1 {
+  background: url(./assets/img/apple-tv.jpg), #fff;
+}
+.more__card--2 {
+  background: url(./assets/img/apple-pay.jpg), #fff;
+}
+
+.more__card--3 {
+  background: url(./assets/img/homekit.jpg), #fff;
 }
