@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 18" width="8" height="18">
+	<title>arrow-svg</title>
+	<style>
+		.s0 { fill: #d2d2d7 } 
+	</style>
+	<g id="seperator">
+		<path id="Layer" class="s0" d="m1.3 1l6.2 8-6.2 8-0.7-0.5 5.8-7.5-5.8-7.5z"/>
+	</g>
+</svg>
