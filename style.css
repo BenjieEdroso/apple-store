@@ -774,4 +774,44 @@ a {
   font-size: 12px;
   color: #424245;
 }
+
+.footerlinks__secondary {
+  display: flex;
+  height: 414.31px;
+}
+
+.footerlinks__vertical ul {
+  display: block;
+  width: 196px;
+}
+
+.footerlinks__vertical ul li {
+  font-size: 12px;
+  color: #424245;
+  font-weight: 300;
+  margin-bottom: 9.6px;
+}
+
+.footerlinks__vertical ul .footerlinks__linklabel {
+  font-weight: 600;
+  color: #1d1d1f;
+  margin: 0px 20px 9.6px 0px;
+}
 /*FOOTER LINKS*/
+
+.footerlinks__mini {
+  padding-top: 34px;
+  padding-bottom: 21px;
+}
+
+.footerlinks__moreways {
+  margin-bottom: 7px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  color: #6e6e73;
+  border-bottom: 1px solid #d2d2d7;
+}
+
+.footerlinks__bluelink {
+  color: #06c;
+}
