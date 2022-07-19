@@ -755,7 +755,7 @@ a {
 /*FOOTER LINKS*/
 .footerlinks__container {
   margin: 0 231px;
-  padding: 17px 0;
+  padding: 17px 0px 0px 0px;
 }
 .footerlinks__logo {
   margin-right: 11px;
@@ -765,6 +765,7 @@ a {
   list-style: none;
   display: flex;
   align-items: center;
+  padding: 17px 0px;
 }
 
 .footerlinks__mainhome ol li {
@@ -780,9 +781,24 @@ a {
   height: 414.31px;
 }
 
+.footerlinks__shop ul {
+  padding: 0;
+}
 .footerlinks__vertical ul {
   display: block;
   width: 196px;
+}
+
+.footerlinks__vertical ul li:last-child {
+  margin: 0;
+}
+
+.footerlinks__education,
+.footerlinks__healthcare,
+.footerlinks__government,
+.footerlinks__about,
+.footerlinks__account {
+  padding-top: 24px;
 }
 
 .footerlinks__vertical ul li {
@@ -814,4 +830,31 @@ a {
 
 .footerlinks__bluelink {
   color: #06c;
+}
+
+.footerlinks__copy {
+  font-size: 12px;
+  display: flex;
+  color: #6e6e73;
+}
+
+.footerlinks__copyLinks {
+  font-size: 12px;
+  display: flex;
+  width: fit-content;
+}
+
+.footerlinks__copyLinksA {
+  color: #424245;
+  margin: 5px 7px 0px 0px;
+  padding: 0px 10px 0px 0px;
+  border-right: 1px solid #d2d2d7;
+}
+
+.footerlinks__country {
+  margin: 0pc 0px 0px auto;
+}
+
+.footerlinks__country a {
+  color: #424245;
 }
